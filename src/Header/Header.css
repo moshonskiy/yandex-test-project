@@ -1,0 +1,29 @@
+.page-header {
+    height: 61px;
+    border-bottom: .5px solid #e9ecef;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px 0 24px;
+}
+
+.page-header__link {
+    display: inline-block;
+    flex-basis: 175px;
+    height: 26px;
+    background-image: url('../resources/svg/logo.svg');
+    font-size: 0;
+}
+
+.page-header__btn {
+    flex-basis: 140px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: #007dff;
+    color: #ffffff;
+    font-size: 13px;
+    border-radius: 4px;
+    letter-spacing: 0;
+    cursor: pointer;
+}

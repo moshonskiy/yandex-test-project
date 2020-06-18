@@ -1,0 +1,25 @@
+.calendar__timeline-current-time {
+    position: absolute;
+    width: 49px;
+    height: 20px;
+    background-color: #007dff;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 13px;
+}
+
+.current-time {
+    color: #ffffff;
+}
+
+.current-time::after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 400px;
+    background-color: #007dff;
+    position: absolute;
+    left: 50%;
+    z-index: 200;
+}

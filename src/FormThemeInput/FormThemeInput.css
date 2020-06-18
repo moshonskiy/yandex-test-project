@@ -1,0 +1,39 @@
+.new-meeting-page-form__theme {
+    flex-basis: 420px;
+    max-width: 420px;
+    height: 58px;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.new-meeting-page-form__theme-input {
+    width: 100%;
+    height: 38px;
+    box-sizing: border-box;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 35px;
+    border-radius: 4px;
+    outline: none;
+    border: 2px solid #e9ecef;
+}
+
+.new-meeting-page-form__theme-input:focus {
+    border: 2px solid #007dff;
+}
+
+.new-meeting-page-form__theme-clear-input-btn {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-image: url('../resources/svg/close-grey.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: #ffffff;
+    font-size: 0;
+    position: absolute;
+    top: 32px;
+    right: 12px;
+    cursor: pointer;
+    line-height: 37px;
+}

@@ -1,0 +1,110 @@
+.new-meeting-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh - 62px;
+}
+
+.new-meeting-page-form__header-wrapper {
+  display: flex;
+  flex-basis: 872px;
+  justify-content: space-between;
+  height: 24px;
+  margin-top: 31px;
+  max-width: 872px;
+  margin: 31px auto 20px;
+}
+
+.new-meeting-page-form__header {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.new-meeting-page-form__close-tab-btn {
+  width: 24px;
+  height: 24px;
+  font-size: 0;
+  background-image: url("../resources/svg/close-grey.svg");
+  background-position: 50% 50%;
+  background-size: 45%;
+  background-repeat: no-repeat;
+  border: none;
+  outline: none;
+  background-color: #e9ecef;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.new-meeting-page-form__close-tab-btn:hover {
+  background-image: url("../resources/svg/close-grey.svg");
+  background-position: 50% 50%;
+  background-size: 45%;
+  background-repeat: no-repeat;
+  background-color: #f2f3f4;
+  cursor: pointer;
+}
+
+.new-meeting-page-form__inner {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: space-between;
+  box-sizing: content-box;
+  flex-basis: 872px;
+  max-width: 872px;
+  margin: 0 auto 200px;
+}
+
+.new-meeting-page-form__input-header {
+  margin: 0;
+  margin-bottom: 3px;
+  padding: 0;
+  font-size: 13px;
+}
+
+.new-meeting-page-form__meeting-place {
+  position: relative;
+  width: 420px;
+  height: 37px;
+}
+
+.new-meeting-page-form__meeting-place::before {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 2px;
+  background-color: #000;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.new-meeting-page-form__meeting-place::after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 2px;
+  background-color: #000;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.new-meeting-page-form-inner__submit {
+  height: 76px;
+  flex-basis: 100%;
+  border-top: 1px solid #e9ecef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.required-field {
+  display: inline-block;
+  color: red;
+  font-weight: bold;
+  font-size: 11px;
+}

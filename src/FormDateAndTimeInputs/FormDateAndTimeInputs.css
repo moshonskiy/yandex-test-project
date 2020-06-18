@@ -1,0 +1,74 @@
+.new-meeting-page-form__date {
+  flex-basis: 420px;
+  max-width: 420px;
+  height: 58px;
+  margin-bottom: 24px;
+}
+
+.new-meeting-page-form__date {
+  display: flex;
+  justify-content: space-between;
+}
+
+.new-meeting-page-form__date-wrapper {
+  flex-basis: 238px;
+  max-width: 238px;
+}
+
+.new-meeting-page-form__date-input {
+  width: 100%;
+  height: 38px;
+  box-sizing: border-box;
+  font-size: 15px;
+  padding-left: 10px;
+  border-radius: 4px;
+  outline: none;
+  border: 2px solid #e9ecef;
+}
+
+.new-meeting-page-form__date-input::-webkit-inner-spin-button,
+.new-meeting-page-form__time-start-input::-webkit-inner-spin-button,
+.new-meeting-page-form__time-end-input::-webkit-inner-spin-button {
+  display: none;
+}
+
+.new-meeting-page-form__date-input::-webkit-calendar-picker-indicator {
+  background-image: url("../resources/svg/calendar.svg");
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  color: transparent;
+}
+
+.new-meeting-page-form__time-start-wrapper {
+  flex-basis: 88px;
+  max-width: 88px;
+}
+
+.new-meeting-page-form__time-start-input {
+  width: 100%;
+  height: 38px;
+  box-sizing: border-box;
+  font-size: 15px;
+  padding-left: 10px;
+  border-radius: 4px;
+  outline: none;
+  border: 2px solid #e9ecef;
+}
+
+.new-meeting-page-form__time-end-wrapper {
+  flex-basis: 88px;
+  max-width: 88px;
+}
+
+.new-meeting-page-form__time-end-input {
+  width: 100%;
+  height: 38px;
+  box-sizing: border-box;
+  font-size: 15px;
+  padding-left: 10px;
+  border-radius: 4px;
+  outline: none;
+  border: 2px solid #e9ecef;
+}
